@@ -1,0 +1,26 @@
+{
+  "name": "@voycelink/languages",
+  "version": "1.0.0",
+  "description": "Shared language definitions and validation utilities for Voycelink platforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "generate": "ts-node scripts/generate-from-sql.ts"
+  },
+  "keywords": [
+    "voycelink",
+    "languages",
+    "iso639"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}
