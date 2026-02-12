@@ -18,6 +18,13 @@
     "iso639"
   ],
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:voycelink/lb-voycelink-languages.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/node": "^25.2.3",
     "ts-node": "^10.9.0",
